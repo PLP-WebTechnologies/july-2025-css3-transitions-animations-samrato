@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS3 + JS Animations</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>✨ Interactive CSS3 + JS Experience ✨</h1>
+
+  <!-- Part 1: Button with hover animation -->
+  <button class="fancy-btn">Hover Me</button>
+
+  <!-- Part 2: Box controlled by JS -->
+  <div id="box"></div>
+  <button onclick="toggleBox()">Animate Box</button>
+
+  <!-- Part 3: Modal with slide/fade triggered by JS -->
+  <button onclick="openModal()">Open Modal</button>
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <p>This is a modal popup!</p>
+      <button onclick="closeModal()">Close</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
